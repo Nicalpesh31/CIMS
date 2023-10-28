@@ -1,4 +1,4 @@
-# CIMS.github.io
+# CIMS Web Application
 
 The main objective of the College 
 Management System is to manage
