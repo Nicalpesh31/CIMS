@@ -1,0 +1,65 @@
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+/* #custom-header {
+    background: rgba(24, 6, 185, 0.8);
+} */
+
+#custom-header .logo a {
+    color: #fff;
+    font-size: 32px;
+}
+
+#custom-header {
+    transition: all 0.5s;
+    z-index: 997;
+    padding: 20px 0;
+  }
+
+  #custom-header, #custom-header.header-inner-pages {
+    background: rgba(24, 6, 185, 0.8);
+    padding: 12px 0;
+  }
+
+  #custom-header .logo {
+    font-size: 32px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  #custom-header .logo a {
+    color: #fff;
+  }
+
+  #custom-header .logo img {
+    max-height: 40px;
+  }
+  
+.table > thead > tr > th, .table > tbody > tr > td {
+    vertical-align: middle;
+}
+
+#footer p, #footer .footer-top .footer-contact p {
+    color: #fff;
+}
+
+#footer h3, #footer h4 {
+    color: #fff;
+}
+
+.ck-editor__editable_inline {
+    min-height: 500px;
+}
+
+.dataTables_scrollHeadInner {
+  margin-top: 1.5%;
+}
+
+
+.dataTables_scrollBody {
+  margin-bottom: 1%;
+}
