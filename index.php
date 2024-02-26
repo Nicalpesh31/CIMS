@@ -1,20 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title>Automated Question Paper Generator</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
 
-<body>
-    <section id="hero" class="d-flex align-items-center">
+
+
+<?php include "nav.php"; ?>
+<!-- ======= Hero Section ======= -->
+<section id="hero" class="d-flex align-items-center">
         <div class="container-fluid" data-aos="fade-up">
             <div class="row justify-content-center">
                 <div class="col-xl-5 col-lg-6 pt-3 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
                     <h1>Automated Question Paper Generator</h1>
-                    <h2>A Fast, Streamlined, Randomized & Automated Method For Generating Question Papers</h2>
+                    <h2>
+                        A Fast, Streamlined, Randomized & Automated Method For Generating Question Papers
+                    </h2>
                     <div>
                         <a href="login.php" class="btn-get-started scrollto">Login</a>
                         <a href="register.php" class="btn-get-started scrollto">Register</a>
@@ -27,7 +24,4 @@
         </div>
     </section>
 
-    <a include="footer.php"></a>
-</body>
-
-</html>
+<?php include "footer.php"; ?>
